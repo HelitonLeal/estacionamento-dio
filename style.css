@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+body {
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+label {
+    color: #000;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F8FF;
+    width: 450px;
+    height: 340px;
+    align-items: center;
+}
+
+.container button {
+    background-color: rgb(66, 180, 9);
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    padding: 10px ;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.container button:hover{
+    background-color: white;
+    color: rgb(66, 180, 9);
+    font-weight: bold;
+}
+
+.container input {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    background-color: #e0ffff;
+    border-radius: 4px;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.table {
+    display: flex;    
+    flex-direction: column;
+    background-color: #F0F8FF;
+    margin-top: 25px;    
+    width: 490px;
+    align-items: center;
+}
+
+.delete{
+    background-color: #f00;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: #fff;
+}
